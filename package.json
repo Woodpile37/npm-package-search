@@ -32,7 +32,9 @@
     "test": "jest",
     "prettier": "prettier --write --single-quote --print-width 80  \"{src,bin,__{tests,setups}__}/**/*.js\" webpack.config.js",
     "release": "release",
-    "zip": "(cd extension && zip -r ../extension.zip .)"
+    "zip": "(cd extension && zip -r ../extension.zip .)",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "manifest": {
     "name": "NPM Package Search",
@@ -77,5 +79,9 @@
     "coverageDirectory": "./coverage/",
     "collectCoverage": true,
     "bail": true
+  },
+  "snyk": true,
+  "dependencies": {
+    "@snyk/protect": "latest"
   }
 }
