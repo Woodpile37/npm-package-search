@@ -1,0 +1,139 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - release > request > extend:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: 'npm:extend:20180424'
+        path: release > request > extend
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          jest > jest-cli > jest-config > jest-environment-jsdom > jsdom >
+          request > extend
+    - lint-staged > jest-validate > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: 'npm:extend:20180424'
+        path: >-
+          lint-staged > jest-validate > jest-config > jest-environment-jsdom >
+          jsdom > request > extend
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - release > @octokit/rest > https-proxy-agent:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: SNYK-JS-HTTPSPROXYAGENT-469131
+        path: release > @octokit/rest > https-proxy-agent
+  SNYK-JS-LODASH-567746:
+    - babel-core > lodash:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-core > lodash
+    - lint-staged > lodash:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: SNYK-JS-LODASH-567746
+        path: lint-staged > lodash
+    - babel-core > babel-register > lodash:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-core > babel-register > lodash
+    - babel-preset-env > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-env > babel-plugin-transform-es2015-block-scoping >
+          lodash
+    - release > inquirer > lodash:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: SNYK-JS-LODASH-567746
+        path: release > inquirer > lodash
+    - release > @octokit/rest > lodash:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: SNYK-JS-LODASH-567746
+        path: release > @octokit/rest > lodash
+    - babel-preset-env > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-env > babel-plugin-transform-es2015-classes >
+          babel-helper-define-map > lodash
+    - babel-preset-env > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-env > babel-plugin-transform-es2015-sticky-regex >
+          babel-helper-regex > lodash
+    - release > request-promise-native > request-promise-core > lodash:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: SNYK-JS-LODASH-567746
+        path: release > request-promise-native > request-promise-core > lodash
+    - jest > jest-cli > jest-config > babel-core > lodash:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: SNYK-JS-LODASH-567746
+        path: jest > jest-cli > jest-config > babel-core > lodash
+    - jest > jest-cli > istanbul-api > async > lodash:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: SNYK-JS-LODASH-567746
+        path: jest > jest-cli > istanbul-api > async > lodash
+    - jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-generator > lodash:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > jest-cli > istanbul-api > istanbul-lib-instrument >
+          babel-generator > lodash
+    - jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > lodash:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > jest-cli > istanbul-api > istanbul-lib-instrument >
+          babel-template > lodash
+    - babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > lodash:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-env > babel-plugin-transform-async-to-generator >
+          babel-helper-remap-async-to-generator > babel-helper-function-name >
+          babel-template > lodash
+    - jest > jest-cli > jest-config > babel-core > babel-register > lodash:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: SNYK-JS-LODASH-567746
+        path: jest > jest-cli > jest-config > babel-core > babel-register > lodash
+    - jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-template > babel-traverse > lodash:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > jest-cli > istanbul-api > istanbul-lib-instrument >
+          babel-template > babel-traverse > lodash
+    - babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-env > babel-plugin-transform-async-to-generator >
+          babel-helper-remap-async-to-generator > babel-helper-function-name >
+          babel-template > babel-traverse > lodash
+    - jest > jest-cli > istanbul-api > istanbul-lib-instrument > babel-generator > babel-types > lodash:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > jest-cli > istanbul-api > istanbul-lib-instrument >
+          babel-generator > babel-types > lodash
+    - babel-preset-env > babel-plugin-transform-async-to-generator > babel-helper-remap-async-to-generator > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-preset-env > babel-plugin-transform-async-to-generator >
+          babel-helper-remap-async-to-generator > babel-helper-function-name >
+          babel-helper-get-function-arity > babel-types > lodash
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          jest > jest-cli > jest-config > jest-environment-jsdom > jsdom >
+          request-promise-native > request-promise-core > lodash
+    - lint-staged > jest-validate > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2023-08-21T08:00:31.484Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          lint-staged > jest-validate > jest-config > jest-environment-jsdom >
+          jsdom > request-promise-native > request-promise-core > lodash
